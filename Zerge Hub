@@ -1,0 +1,164 @@
+-- Made by nuo fuck off skids
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local FEYeetUI = Instance.new("TextButton")
+local Neko = Instance.new("TextButton")
+local VGHub = Instance.new("TextButton")
+local PrisonLifeAdmin = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
+local Label = Instance.new("TextLabel")
+local ProjectXHub = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.240301877, 0, 0.263719678, 0)
+Main.Size = UDim2.new(0, 441, 0, 236)
+Main.Active = true
+
+FEYeetUI.Name = "FEYeetUI"
+FEYeetUI.Parent = Main
+FEYeetUI.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+FEYeetUI.BorderSizePixel = 0
+FEYeetUI.Position = UDim2.new(0.58510524, 0, 0.382155359, 0)
+FEYeetUI.Size = UDim2.new(0, 171, 0, 38)
+FEYeetUI.Font = Enum.Font.GothamSemibold
+FEYeetUI.Text = "FE Yeet UI"
+FEYeetUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEYeetUI.TextSize = 31.000
+FEYeetUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeahimexisting/Zerge-Hub-Scripts/main/FE%20Fling%20UI",true))()
+end)
+
+Neko.Name = "Neko"
+Neko.Parent = Main
+Neko.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Neko.BorderSizePixel = 0
+Neko.Position = UDim2.new(0.0277290493, 0, 0.186843932, 0)
+Neko.Size = UDim2.new(0, 129, 0, 38)
+Neko.Font = Enum.Font.GothamSemibold
+Neko.Text = "FE Neko"
+Neko.TextColor3 = Color3.fromRGB(255, 255, 255)
+Neko.TextSize = 31.000
+Neko.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeahimexisting/Zerge-Hub-Scripts/main/FE%20Neko",true))()
+end)
+
+VGHub.Name = "VGHub"
+VGHub.Parent = Main
+VGHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+VGHub.BorderSizePixel = 0
+VGHub.Position = UDim2.new(0.0256435368, 0, 0.385996461, 0)
+VGHub.Size = UDim2.new(0, 129, 0, 38)
+VGHub.Font = Enum.Font.GothamSemibold
+VGHub.Text = "VG Hub"
+VGHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+VGHub.TextSize = 31.000
+VGHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeahimexisting/Zerge-Hub-Scripts/main/VG%20Hubhttps%3A/raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",true))()
+end)
+
+PrisonLifeAdmin.Name = "PrisonLifeAdmin"
+PrisonLifeAdmin.Parent = Main
+PrisonLifeAdmin.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+PrisonLifeAdmin.BorderSizePixel = 0
+PrisonLifeAdmin.Position = UDim2.new(0.244621605, 0, 0.811295629, 0)
+PrisonLifeAdmin.Size = UDim2.new(0, 244, 0, 38)
+PrisonLifeAdmin.Font = Enum.Font.GothamSemibold
+PrisonLifeAdmin.Text = "Prison Life admin"
+PrisonLifeAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLifeAdmin.TextSize = 31.000
+PrisonLifeAdmin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = Main
+OwlHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0.680972338, 0, 0.187240049, 0)
+OwlHub.Size = UDim2.new(0, 129, 0, 38)
+OwlHub.Font = Enum.Font.GothamSemibold
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 31.000
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()'),true))()
+end)
+Label.Name = "Label"
+Label.Parent = Main
+Label.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Label.BorderSizePixel = 0
+Label.Position = UDim2.new(0, 0, -0.00322949677, 0)
+Label.Size = UDim2.new(0, 441, 0, 35)
+Label.Font = Enum.Font.GothamSemibold
+Label.Text = "Zerge Hub || Universal Hub"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextSize = 30.000
+Label.TextXAlignment = Enum.TextXAlignment.Left
+
+ProjectXHub.Name = "Project X Hub"
+ProjectXHub.Parent = Main
+ProjectXHub.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+ProjectXHub.BorderSizePixel = 0
+ProjectXHub.Position = UDim2.new(0.292505443, 0, 0.62073797, 0)
+ProjectXHub.Size = UDim2.new(0, 200, 0, 38)
+ProjectXHub.Font = Enum.Font.GothamSemibold
+ProjectXHub.Text = "Project X Hub"
+ProjectXHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ProjectXHub.TextSize = 31.000
+ProjectXHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SampleSacred/projectxnew/main/ProjectXV1_3.lua",true))()
+end)
+
+
+-- Scripts:
+
+local function WMVVZOX_fake_script() -- Main.Dragify 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(WMVVZOX_fake_script)()
